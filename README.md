@@ -1,17 +1,23 @@
 # Dashboard Analisis Bike Sharing
 
-## setup virtual environment di vsc
+## setup virtual environment - pip
+```
+--install virtual environment
+pip install virtualenv
+virtualenv venv
+venv\Scripts\activate
+```
 
---install virtual environment<br>
-pip install virtualenv<br>
---membuat virtual environment<br>
-virtualenv subs1<br>
---mengaktifkan virtual environment<br>
-subs1\Scripts\activate<br>
+## Setup Environment - Shell Terminal
+```
+-pip install streamlit
+-pip install matplotlib
+-pip install pandas
+-pip install seaborn
+-pip install -r requirements.txt
+```
 
-
-## setup environment - pip
--pip install streamlit<br>
--pip install matplotlib<br>
--pip install pandas<br>
--pip install seaborn<br>
+## Run Streamlit App
+```
+streamlit run dashboard.py                
+```
