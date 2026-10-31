@@ -19,7 +19,7 @@ sns.set(style='darkgrid')
 @st.cache_data
 def load_data():
     # Pastikan file 'day.csv' berada dalam satu folder yang sama dengan dashboard.py
-    df = pd.read_csv('main_data.csv')
+    df = pd.read_csv('dashboard/main_data.csv')
 
     # Data Wrangling & Cleaning sederhana
     df['dteday'] = pd.to_datetime(df['dteday'])
