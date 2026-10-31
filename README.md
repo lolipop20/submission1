@@ -2,16 +2,16 @@
 
 ## setup virtual environment di vsc
 
---install virtual environment
-pip install virtualenv
---membuat virtual environment
-virtualenv subs1
---mengaktifkan virtual environment
-subs1\Scripts\activate
+--install virtual environment<br>
+pip install virtualenv<br>
+--membuat virtual environment<br>
+virtualenv subs1<br>
+--mengaktifkan virtual environment<br>
+subs1\Scripts\activate<br>
 
 
 ## setup environment - pip
--pip install streamlit
--pip install matplotlib
--pip install pandas
--pip install seaborn
+-pip install streamlit<br>
+-pip install matplotlib<br>
+-pip install pandas<br>
+-pip install seaborn<br>
